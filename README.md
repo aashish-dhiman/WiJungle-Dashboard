@@ -16,6 +16,11 @@ The WiJungle Dashboard presents several graphs based on alert data, providing in
 3. **Alerts over Time**: Line chart illustrating the trend of alerts over a period of time.
 4. **Protocol Distribution**: Bar chart showcasing the distribution of alerts by protocols used.
 
+### Technologies Used
+- React.js
+- Chart.js (for graph visualizations)
+- Tailwind CSS (for styling)
+
 ### Deployment
 
 The project is deployed live and can be accessed at [WiJungle Dashboard](https://wi-jungle-dashboard.vercel.app/).
