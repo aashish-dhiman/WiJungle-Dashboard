@@ -1,76 +1,48 @@
-# Discord Clone
+## Project Overview
 
-Welcome to the Discord Clone project! This project is a web application built with React and Tailwind CSS, designed to replicate the functionalities and design of the Discord app. The project includes the home page, Nitro page, and Safety page. It is fully responsive and all links are connected to the original Discord site.
+The WiJungle Dashboard presents several graphs based on alert data, providing insights into different aspects categorized by categories, signatures, alerts over time, and protocols.
 
-## Table of Contents
+### Features
 
-- [Demo](#demo)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup](#setup)
-- [Contributing](#contributing)
+- **Dark Theme**: The dashboard is designed with a dark theme for better visibility and reduced eye strain.
+- **Responsive Design**: All graphs are responsive and adapt well to different screen sizes and devices.
+- **Multiple Graphs**: More than three graphs are included to provide a comprehensive view of the data.
+- **Beautiful Graphs**: Each graph is crafted to be visually appealing and informative.
 
-## Demo
+### Graphs Included
 
-You can access the live demo of this project at https://discord-aashish.vercel.app/.
+1. **Alert Categories**: Bar chart showing the distribution of alerts across different categories.
+2. **Alert Signatures**: Pie chart displaying the distribution of alerts by their signatures.
+3. **Alerts over Time**: Line chart illustrating the trend of alerts over a period of time.
+4. **Protocol Distribution**: Bar chart showcasing the distribution of alerts by protocols used.
 
-## Features
+### Deployment
 
-- Home Page: Replicates the Discord home page, including channels, server listings, and messages.
-- Nitro Page: Provides information about Discord Nitro features and pricing.
-- Safety Page: Offers resources and information about safety on Discord.
-- Fully Responsive: The application is designed to work seamlessly on various devices and screen sizes.
-- Links to Original Discord Site: All links are connected to the official Discord website for a seamless user experience.
+The project is deployed live and can be accessed at [WiJungle Dashboard](https://wi-jungle-dashboard.vercel.app/).
 
-## Technologies Used
+### How to Run Locally
 
-This project is built with the following technologies:
+To run the project locally on your machine, follow these steps:
 
-- React
-- Tailwind CSS
+1. Clone the repository:
 
-## Setup
+   ```bash
+   git clone <repository_url>
+   cd wi-jungle-dashboard
+   ```
 
-To run this project locally, follow these steps:
+2. Install dependencies:
 
-1. Clone the repository to your local machine:
+   ```bash
+   npm install
+   ```
 
-```bash
-git clone <repository-url>
-```
+3. Start the development server:
 
-2. Change your directory to the project folder:
+   ```bash
+   npm start
+   ```
 
-```bash
-cd discord-clone
-```
-
-3. Install the required dependencies:
-
-```bash
-npm install
-```
-
-4. Start the development server:
-
-```bash
-npm start
-```
-
-The application should now be accessible at [http://localhost:5173](http://localhost:5173).
+4. Open your browser and visit `http://localhost:3000` to view the dashboard.
 
 
-## Contributing
-
-If you'd like to contribute to this project, please follow these steps:
-
-1. Fork the project on GitHub.
-2. Create a new branch with a descriptive name.
-3. Make your changes and commit them with clear messages.
-4. Push your changes to your fork.
-5. Create a pull request to this repository.
-
-We welcome contributions and improvements from the community!
-
-
----
